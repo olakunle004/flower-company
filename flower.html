@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/flower 1.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Company</title>
+
+    <style>
+       * {
+        padding: 2px;
+        margin: 0;
+        border-radius: 2px;
+       } 
+        body {
+            background-image:url(./img/flower3.jpg);
+            background-size: cover;
+            background-position: center;
+            height : 100vh;
+        }
+        header {
+    float: left;
+    list-style-type: none;
+    margin-top: 15px;
+    border-radius: 100%;
+    size: 50px;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 2px, 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: red;
+    color: white;
+}
+
+ul li.active a {
+    background-color: red;
+    color: white;
+}
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    padding: 2px, 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    transition: 0.6s ease;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="main">
+        <ul class="menu">
+            <li class="active "><a href="#">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="product.html">PRODUCT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <div class="title">
+        <h1>YUNUS FLOWER COMPANY</h1>
+    </div>
+
+    <div class="button">
+        <a href="#" class="btn">SEE MORE!</a>
+        <a href="#" class="btn">PRIVACY POLICY</a>
+    </div>
+   
+</body>
+</html>
